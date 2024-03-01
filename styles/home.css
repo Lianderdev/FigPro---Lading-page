@@ -1,120 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-:root{
-    --color-primary: #1b1b1b;
-    --color-secundary: #fcc26b;
-    --color-primary-500: #514B4B;
-}
-
-/* Header */
-header{
+.home{
     width: 100%;
-    height: 50px;
-    display: flex;
-    padding: 0 10%;
-    margin-top: 20px;
-}
-
-.logo{
-    display: block;
-    width: 167px;
-    height: 50px;
-}
-
-header nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.nav-itens{
-    display: flex;
-    gap: 20px;
-}
-
-header nav .nav-itens li a{
-    font-family: Roboto Mono;
-    color: #514B4B;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0.06em;
-    text-align: left;
-}
-
-.nav-itens-icons{
-    color: #514B4B;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    display: flex;
-    gap: 15px;
-}
-
-.active{
-    color: #000000;
-}
-
-header nav ul li a:hover{
-    color: var(--color-primary);
-}
-
-.menu-mobile{
-    border: none;
-    display: flex;
-    justify-content: end;
-    background-color: transparent;
-    font-weight: 600;
-    cursor: pointer;
-    display: none;
-}
-
-.fa-solid.fa-bars{
-    font-size: 30px;
-    color: var(--color-primary-500);
-}
-
-@media screen and (max-width: 1133px){
-    .menu-mobile{
-        display: block;
-    }
-
-    .nav-itens{
-        display: none;
-    }
-}
-/* Section */
-
-section{
-    width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(115vh + 70px);
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
+    z-index: 3;
 }
 
-.content{
+.content-home{
     width: 60%;
     display: flex;
-    top: 170px;
+    top: 250px;
     flex-direction: column;
     position: absolute;
     gap: 30px;
     padding: 0 10%;
 }
 
-.content h1{
+.content-home h1{
     font-family: Road Rage;
     font-size: 105px;
     font-weight: 400;
@@ -123,7 +27,7 @@ section{
     text-align: left;
 }
 
-.content h1 span{
+.content-home h1 span{
     color: var(--color-primary-500);
 }
 
@@ -163,14 +67,14 @@ section{
     top: 0;
 }
 
-.img-content{
+.img-content-home{
     height: calc(100vh - 70px);
     width: 100%;
     position: relative;
     z-index: -10;
 }
 
-.img-content img{
+.img-content-home img{
     position: absolute;
     right: 0;
 }
