@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #1b1b1b;
+    --color-secundary: #fcc26b;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0 5%;
+    margin-top: 20px;
+}
+
+.logo{
+    display: block;
+    width: 167px;
+    height: 50px;
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a{
+    font-family: Roboto Mono;
+    color: #514B4B;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.active{
+    color: #000000;
+}
+
+/* Section */
+
+section{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 40px;
+    padding: 0 5%;
+}
+
+.content h1{
+    font-family: Road Rage;
+    font-size: 105px;
+    font-weight: 400;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.content h1 span{
+    color: #514B4B;
+}
+
+.titulo-img{
+    position: absolute;
+    top: 130px;
+}
+
+.decriscao{
+    font-family: Roboto Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #514B4B;
+}
+
+.letsGO{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Road Rage;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    -webkit-text-stroke-color: #fcc26b;
+    position: relative;
+}
+
+.letsGO span img{
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.img-content{
+    height: calc(100vh - 70px);
+    width: 100%;
+    position: relative;
+}
+
+.img-content img{
+    position: absolute;
+    right: 0;
+}
+
+.elipse1{
+    
+}
