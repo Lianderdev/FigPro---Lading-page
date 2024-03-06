@@ -5,7 +5,9 @@
     flex-direction: column;
     gap: 110px;
     align-items: center;
+    justify-content: center;
     position: relative;
+    background-color:  #faf9f9;
 }
 
 .paragrafo-info{
@@ -38,7 +40,6 @@
     position: absolute;
     top: -90px;
     left: -25px;
-
 }
 
 .stiker-libray{

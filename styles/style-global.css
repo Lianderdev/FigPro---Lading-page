@@ -5,6 +5,8 @@
 @import url('como-usar.css');
 @import url('sobre.css');
 @import url('lista-stickers.css');
+@import url('cta.css');
+@import url('footer.css');
 
 
 * {
@@ -19,7 +21,4 @@
     --color-primary: #1b1b1b;
     --color-secundary: #fcc26b;
     --color-primary-500: #514B4B;
-}
-
-body{
 }
